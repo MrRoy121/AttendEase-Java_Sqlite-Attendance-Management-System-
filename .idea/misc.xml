@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/border.xml" value="0.118" />
+        <entry key="app/src/main/res/drawable/calendar.xml" value="0.118" />
+        <entry key="app/src/main/res/drawable/calendar_icon.xml" value="0.118" />
+        <entry key="app/src/main/res/drawable/roundedbutton.xml" value="0.14" />
+        <entry key="app/src/main/res/drawable/roundedtextview.xml" value="0.118" />
+        <entry key="app/src/main/res/layout/activity_add_attendance.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_add_faculty.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_add_student.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_menu.xml" value="0.20208333333333334" />
+        <entry key="app/src/main/res/layout/activity_view_attendance.xml" value="0.20208333333333334" />
+        <entry key="app/src/main/res/layout/activity_view_attendance_by_faculty.xml" value="0.20208333333333334" />
+        <entry key="app/src/main/res/layout/activity_view_attendance_per_student.xml" value="0.20208333333333334" />
+        <entry key="app/src/main/res/layout/activity_view_faculty.xml" value="0.20208333333333334" />
+        <entry key="app/src/main/res/layout/activity_view_student.xml" value="0.20208333333333334" />
+        <entry key="app/src/main/res/layout/add_student_attendance.xml" value="0.20208333333333334" />
+        <entry key="app/src/main/res/layout/login.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/main_listview.xml" value="0.20208333333333334" />
+        <entry key="app/src/main/res/layout/perstudent.xml" value="0.20208333333333334" />
+        <entry key="app/src/main/res/layout/test_layout.xml" value="0.20208333333333334" />
+        <entry key="app/src/main/res/layout/test_main.xml" value="0.20208333333333334" />
+        <entry key="app/src/main/res/layout/view_faculty_list.xml" value="0.20208333333333334" />
+        <entry key="app/src/main/res/layout/view_student_list.xml" value="0.20208333333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
