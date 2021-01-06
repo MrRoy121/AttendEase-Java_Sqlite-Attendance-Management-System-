@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/gb"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20sp"
+        android:src="@drawable/logo"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="AttendEase"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="italic|bold" />
+
+    <Button
+        android:id="@+id/buttonViewstudent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/border"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:text="View student" />
+
+    <Button
+        android:id="@+id/buttonviewfaculty"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/border"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:text="View faculty" />
+
+    <Button
+        android:id="@+id/buttonaddfaculty"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/border"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:text="Add faculty" />
+
+    <Button
+        android:id="@+id/buttonaddstudent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/border"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:text="Add student" />
+
+    <Button
+        android:id="@+id/attendancePerStudentButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/border"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:text="Attendance Per Student" />
+
+
+    <Button
+        android:id="@+id/buttonlogout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/border"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:text="Logout" />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+</LinearLayout>
