@@ -1,0 +1,231 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gb">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/border"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Select dept :"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:background="#000000"
+            android:layout_margin="5dp"
+            android:layout_marginStart="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/border"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Select year"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <Spinner
+            android:id="@+id/spinneryear"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:background="#000000"
+            android:layout_margin="5dp"
+            android:layout_marginStart="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l3"
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/border"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Semester"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <Spinner
+            android:id="@+id/spinnersem"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:background="#000000"
+            android:layout_margin="5dp"
+            android:layout_marginStart="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l5"
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/border"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Subject"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <Spinner
+            android:id="@+id/spinnerSE"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:background="#000000"
+            android:layout_margin="5dp"
+            android:layout_marginStart="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l4"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/DateEditText"
+            android:layout_width="200dp"
+            android:textColor="@color/black"
+            android:layout_height="match_parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="5dp"
+            android:hint="Date."
+            android:paddingStart="20dp"
+            android:textColorHint="#636363"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/border"
+            android:ems="10" />
+
+
+        <ImageButton
+            android:id="@+id/DateImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#00FFFFFF"
+            android:scaleType="fitXY"
+            android:src="@drawable/calendar" />
+
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonsubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/border"
+        android:text="Add Attendance"
+        android:textColor="@color/black" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/viewTotalAttendanceButton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/border"
+        android:text="View Total Attendance"
+        android:textColor="@color/black" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/viewAttendancebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/border"
+        android:textColor="@color/black"
+        android:text="View Attendance"/>
+
+    <Button
+        android:id="@+id/buttonaddstudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/border"
+        android:textColor="@color/black"
+        android:text="Add student" />
+
+    <Button
+        android:id="@+id/buttonViewstudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/border"
+        android:textColor="@color/black"
+        android:text="View student" />
+
+    <Button
+        android:id="@+id/attendancePerStudentButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/border"
+        android:textColor="@color/black"
+        android:text="Attendance Per Student" />
+
+
+    <Button
+        android:id="@+id/buttonlogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/border"
+        android:textColor="@color/black"
+        android:text="Logout" />
+</LinearLayout>
