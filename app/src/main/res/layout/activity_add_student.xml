@@ -1,0 +1,227 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:orientation="vertical"
+     android:background="@drawable/gb"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textViewFormName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Registration"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:textSize="22sp"
+             android:layout_marginStart="80dp"
+             android:text="(Student)"
+             android:textColor="#000" />
+         
+        <TextView
+            android:id="@+id/textViewFirstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:text="firstname"
+            android:textColor="#000" />
+
+
+
+        <EditText
+            android:id="@+id/editTextFirstName"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textViewLastName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:text="lastname"
+            android:textColor="#000" />
+
+
+         <EditText
+            android:id="@+id/editTextLastName"
+             android:layout_width="match_parent"
+             android:textColor="@color/black"
+             android:layout_height="wrap_content"
+             android:layout_margin="5dp"
+             android:padding="10dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textViewPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:text="Contact"
+            android:textColor="#000" />
+
+
+         <EditText
+            android:id="@+id/editTextPhone"
+             android:layout_width="match_parent"
+             android:textColor="@color/black"
+             android:layout_height="wrap_content"
+             android:layout_margin="5dp"
+             android:padding="10dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:inputType="phone"/>
+
+        <TextView
+            android:id="@+id/textViewUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:text="Address"
+            android:textColor="#000" />
+
+
+
+         <EditText
+             android:id="@+id/editTextaddr"
+             android:layout_width="match_parent"
+             android:textColor="@color/black"
+             android:layout_height="wrap_content"
+             android:layout_margin="5dp"
+             android:padding="10dp"
+             android:background="@drawable/border"
+             android:ems="10"/>
+
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="50dp"
+             android:layout_marginStart="20dp"
+             android:layout_marginEnd="20dp"
+             android:background="@drawable/border"
+             android:layout_marginTop="10dp"
+             android:layout_marginBottom="5dp">
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:text="Select dept"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000" />
+
+        <Spinner
+            android:id="@+id/spinnerdept"
+            android:padding="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:background="#000000"
+            android:layout_height="match_parent"/>
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="50dp"
+             android:layout_marginStart="20dp"
+             android:layout_marginEnd="20dp"
+             android:background="@drawable/border"
+             android:layout_marginTop="10dp"
+             android:layout_marginBottom="5dp">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:text="Select year"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000" />
+
+
+         <Spinner
+            android:id="@+id/spinneryear"
+             android:padding="5dp"
+             android:layout_width="0dp"
+             android:layout_weight="1"
+             android:layout_margin="2dp"
+             android:background="#000000"
+             android:layout_height="match_parent"/>
+         </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:layout_marginStart="20dp"
+         android:layout_marginEnd="20dp"
+         android:background="@drawable/border"
+         android:layout_marginTop="10dp"
+         android:layout_marginBottom="5dp">
+         <TextView
+             android:id="@+id/textView3"
+             android:layout_width="0dp"
+             android:layout_weight="1"
+             android:layout_margin="5dp"
+             android:layout_height="wrap_content"
+             android:text="Select semester"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             android:textColor="#000" />
+
+
+         <Spinner
+             android:id="@+id/spinnersem"
+             android:padding="5dp"
+             android:layout_width="0dp"
+             android:layout_weight="1"
+             android:layout_margin="2dp"
+             android:background="#000000"
+             android:layout_height="match_parent"/>
+     </LinearLayout>
+
+
+         <LinearLayout
+             android:gravity="bottom"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+                 <Button
+                     android:id="@+id/Cancel_Button"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:background="@drawable/border"
+                     android:layout_margin="20dp"
+                     android:textSize="18sp"
+                     android:text="cancle"
+                     android:textColor="#000" />
+
+                 <Button
+                     android:id="@+id/RegisterButton"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:background="@drawable/border"
+                     android:layout_margin="20dp"
+                     android:textSize="18sp"
+                     android:text="submit"
+                     android:textColor="#000" />
+         </LinearLayout>
+
+ </LinearLayout>
